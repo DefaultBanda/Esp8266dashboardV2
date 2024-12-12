@@ -62,8 +62,31 @@ https://github.com/user-attachments/assets/4d789f48-f256-43a6-845e-4885a30e075d
 
 ## Known Issues
 
-- OctoPrint API keys must match your server settings.
-- MJPEG stream depends on your 3D printer camera setup.
+- None Yet :)
+
+---
+
+## Wiring Diagram ONLY IF YOUR ESP8266 DOES NOT HAVE A USB PORT
+
+| ESP8266 Pin | Description         |
+|-------------|---------------------|
+| VCC         | Connect to 3.3V    |
+| GND         | Connect to Ground  |
+| D4          | Connect to LED or Debug Pin |
+
+---
+
+## Example Configuration
+
+Ensure these lines are updated in the code:
+```cpp
+ssid = "YourWiFiSSID";
+password = "YourWiFiPassword";
+weatherApiKey = "YourOpenWeatherMapAPIKey";
+stockApiKey = "YourAlphaVantageAPIKey";
+octoPrintApiKey = "YourOctoPrintAPIKey";
+octoPrintUrl = "http://YourOctoPrintIP:Port/api/job";
+
 
 ## License
 
