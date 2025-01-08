@@ -2,7 +2,7 @@
 
 A powerful and feature-rich IoT dashboard built using ESP8266, providing real-time weather, stock prices, 3D printer monitoring, and control capabilities. This project is ideal for people who wan to integrate multiple IoT functionalities in a single web-based interface.
 
-This V2 fixes a few bugs which caused to esp8266 to heat up alot and crash and made the program footprint smaller so it runs alot smoother
+This V2 fixes a few bugs which caused to esp8266 to heat up alot and crash and made the program footprint smaller so it runs alot smoother UPDATE: New update fixes even more thought it was fixed but was still present after some use 
 ![IMG_4189 (1)](https://github.com/user-attachments/assets/c49e404c-37e2-4438-b34f-66f13a6b6519)
 ![SS8266](https://github.com/user-attachments/assets/82863979-3a43-4d00-a298-62c52ce63d28)
 
